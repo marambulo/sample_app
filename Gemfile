@@ -37,5 +37,5 @@ end
 # just production because in dev we use sqlite3
 # production is heroku for this app
 group :production do
-  gem 'pg', '0.12.2'
+  #gem 'pg', '0.12.2'
 end
