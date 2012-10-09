@@ -34,6 +34,8 @@ group :test do
   # gem 'growl', '1.0.3'
 end
 
+gem 'annotate', '2.5.0', group: :development
+
 # just production because in dev we use sqlite3
 # production is heroku for this app
 group :production do
